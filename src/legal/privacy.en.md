@@ -22,7 +22,7 @@ Maintenance reminders are local notifications scheduled on your device. No data 
 
 ## Purchases
 
-Luffly Pro subscriptions and the lifetime purchase are processed by Apple through the App Store. To check whether you have Luffly Pro, the app uses **RevenueCat**, which receives an anonymous app user identifier, your purchase history and basic device information (such as the iOS version, country and app version). It does not receive your name, your email address or anything you enter in the app. RevenueCat handles it under its own [privacy policy](https://www.revenuecat.com/privacy).
+Luffly Pro subscriptions and the lifetime purchase are processed by Apple through the App Store, under [Apple's privacy policy](https://www.apple.com/legal/privacy/). The app checks whether you have Luffly Pro directly with Apple on your device (StoreKit). We don't receive your purchase details or your Apple Account, and no third-party service is involved.
 
 ## What Luffly does not do
 

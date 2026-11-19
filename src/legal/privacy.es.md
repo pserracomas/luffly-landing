@@ -22,7 +22,7 @@ Los avisos de mantenimiento son notificaciones locales que se programan en tu di
 
 ## Compras
 
-Las suscripciones a Luffly Pro y el pago único las procesa Apple a través del App Store. Para comprobar si tienes Luffly Pro, la app usa **RevenueCat**, que recibe un identificador anónimo de usuario de la app, tu historial de compras e información básica del dispositivo (como la versión de iOS, el país y la versión de la app). Nunca recibe tu nombre, tu correo ni lo que escribes en la app. RevenueCat lo trata según su propia [política de privacidad](https://www.revenuecat.com/privacy).
+Las suscripciones a Luffly Pro y el pago único las procesa Apple a través del App Store, según la [política de privacidad de Apple](https://www.apple.com/es/legal/privacy/). La app comprueba si tienes Luffly Pro directamente con Apple en tu dispositivo (StoreKit). No recibimos los datos de tus compras ni tu cuenta de Apple, y no interviene ningún servicio de terceros.
 
 ## Lo que Luffly no hace
 
