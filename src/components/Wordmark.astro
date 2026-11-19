@@ -1,0 +1,15 @@
+---
+// The Luffly logo (direction D2): "Lu" + the two f's drawn as sails + "ly", in Outfit Bold.
+// Same geometry as LufflyMark in the app (an 84 × 98 unit box, sails on the baseline).
+// The first sail takes the text colour; the second sail and the boom use --wm-sail and
+// --wm-boom (set in global.css for light, dark and the navy hero card).
+---
+<span class="wordmark" role="img" aria-label="Luffly">
+	<span aria-hidden="true">Lu</span>
+	<svg class="wordmark-sails" viewBox="0 0 84 98" aria-hidden="true" focusable="false">
+		<path d="M4 98 V24 C4 10 13 3 26 4 C29 34 33 64 34 98 Z" fill="currentColor"></path>
+		<path d="M42 98 V24 C42 10 51 3 64 4 C67 34 71 64 72 98 Z" fill="var(--wm-sail)"></path>
+		<rect x="0" y="44" width="80" height="9" rx="4.5" fill="var(--wm-boom)"></rect>
+	</svg>
+	<span aria-hidden="true">ly</span>
+</span>

@@ -3,6 +3,7 @@ import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import Base from '../layouts/Base.astro';
 import StoreButton from '../components/StoreButton.astro';
+import Wordmark from '../components/Wordmark.astro';
 import icon from '../assets/icon.png';
 import { PRICES } from '../consts';
 import { euros, path, ui, type Lang } from '../i18n/ui';
@@ -54,7 +55,7 @@ const plans = [
 					) : (
 						<div class="hero-mark">
 							<Image src={icon} alt="" width={220} height={220} densities={[1, 2]} loading="eager" class="hero-icon" />
-							<span class="wordmark">Luffly</span>
+							<Wordmark />
 						</div>
 					)
 				}
